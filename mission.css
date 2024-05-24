@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.missionHeader
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.missionOuterTextContainer
+{
+    color: #fff;
+    background-color: rgb(10, 18, 171);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+

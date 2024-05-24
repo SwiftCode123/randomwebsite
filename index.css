@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.home
+{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.list,
+.quote
+{
+    background-color: #262626;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-break: all;
+}
+
+.listOuterContainer,
+.quoteOuterContainer
+{
+    font-size: 1.2rem;
+    padding: 20px;
+    word-spacing: 3px;
+}
+
+.fatIdentifier
+{
+    color: rgb(86, 55, 209);
+    font-weight: bold;
+}
+
+.uglyIdentifier
+{
+    color: rgb(203, 26, 26);
+    font-weight: bold;
+}
+
+.oldIdentifier
+{
+    color: rgb(141, 39, 159);
+    font-weight: bold;
+}
+
+.stupidIdentifier
+{
+    color: rgb(28, 161, 119);
+    font-weight: bold;
+}
+
+.javaScript,
+.jsOutsideContainer,
+.suprise
+{
+    background-color: rgb(42, 47, 47);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.jsOutsideContainer,
+.supriseContainer
+{
+    padding: 10px;
+}
+
+.jsOutsideContainer .jsInsideContainer .buttonContainer,
+.supriseTextContainer
+{
+    border: 1px solid rgb(64, 94, 94);
+    padding: 20px;
+    transition: background-color 1s, color 1s;
+}
+
+.buttonContainer:hover,
+.supriseTextContainer:hover
+{
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.supriseTextContainer
+{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.supriseTextContainer:hover
+{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.doorsSection
+{
+    background-color: #1f1b1b;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.doorsRow,
+.doorsRowContainer
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: wrap;
+    gap: 15px;
+}
+
+.door 
+{
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    /* height: 350px; */
+    aspect-ratio: 1 / 1.4;
+    padding: 1rem;
+    border-radius: 20px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 30px 30px 5px #132c75; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    transition: background-color .5s;
+}
+
+.door:hover 
+{
+    background-color: #151313;
+}
